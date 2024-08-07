@@ -26,4 +26,10 @@ jobs:
     - name: Run tests
       run: |
         pytest tests
+    - name: Deploy to Heroku
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      run: |
+        heroku git:remote -a devsecops-flask-app
+        git push heroku main
 
