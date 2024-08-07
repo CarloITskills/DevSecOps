@@ -30,9 +30,5 @@ jobs:
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
-        echo $HEROKU_API_KEY | heroku auth:token
-        heroku git:remote -a devsecops-flask-app
+        git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/devsecops-flask-app.git
         git push heroku main
-
-
-
