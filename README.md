@@ -25,3 +25,19 @@ This project is a Flask web application integrated with a CI/CD pipeline using G
    ```bash
    git clone https://github.com/CarloITskills/DevSecOps
    cd devsecops-project
+   
+2. Create Virtual Environment
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+
+3. Run the Application
+   python app.py
+
+4. Run Test
+   pytest tests
+
+5. Deployment
+   Deployment is automatic
+   
+
