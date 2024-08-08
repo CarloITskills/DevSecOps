@@ -24,4 +24,4 @@ This project is a Flask web application integrated with a CI/CD pipeline using G
 1. Clone the repository:
    ```bash
    git clone https://github.com/CarloITskills/DevSecOps
-   cd devsecops-project
+   cd Documents\devsecops-project
