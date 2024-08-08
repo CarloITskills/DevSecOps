@@ -37,8 +37,11 @@ This project is a Flask web application integrated with a CI/CD pipeline using G
    python app.py
 
 4. Run Test
- ```bash
+   ```bash
    pytest tests
+
+5. Deployment is auto
+   
 
    
 
